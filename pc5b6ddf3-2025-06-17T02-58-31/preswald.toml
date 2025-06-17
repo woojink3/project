@@ -1,0 +1,20 @@
+[project]
+title = "Personality Project"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"
+entrypoint = "hello.py"
+
+[branding]
+name = "Personality Project"
+logo = "images/conversation-icon.png"
+favicon = "images/mask-privacy-icon.png"
+primaryColor = "#82CAFA"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[logging]
+level = "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
